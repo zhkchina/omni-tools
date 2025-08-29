@@ -44,3 +44,6 @@ dist.zip
 .qodo
 
 error.txt
+
+# Local Netlify folder
+.netlify

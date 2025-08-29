@@ -194,5 +194,5 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 - [ ] CICD流程适配 用github action 自动推送docker，服务器拉取镜像自动- [ ] 更新界面，去除不必要的版权标记和功能，页面静态化
 - [ ] 修改语言模块，适配小语种
-- [ ] 加入Google广告
+- [ ] 测试Google
 - [ ] 调研多个docker的服务放在同一个域名不同目录下traefik或者caddy
