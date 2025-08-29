@@ -162,3 +162,23 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 - [ ] 修改语言模块，适配小语种
 - [ ] 测试Google
 - [ ] 调研多个docker的服务放在同一个域名不同目录下traefik或者caddy
+
+## 关于测试
+
+已有本地测试流程。下面是最小命令清单。
+开发/预览
+开发启动：npm run dev
+生产预览：npm run build && npm run serve（E2E 会自动用这条）
+单元测试（Vitest）
+运行：npm run test
+可视化模式：npm run test:ui
+端到端测试（Playwright）
+首次安装浏览器：npx playwright install
+运行：npm run test:e2e
+查看报告：npx playwright show-report
+说明：会先执行 npm run build && npm run serve，预览端口默认 4173
+质量检查
+类型检查：npm run typecheck
+Lint 修复：npm run lint
+依赖安装（首次或切分支后）
+npm install
