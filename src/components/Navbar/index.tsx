@@ -110,37 +110,7 @@ const Navbar: React.FC<NavbarProps> = ({
             ? 'ic:round-light-mode'
             : 'ic:round-contrast'
       }
-    />,
-    <Icon
-      onClick={() => window.open('https://discord.gg/SDbbn3hT4b', '_blank')}
-      style={{ cursor: 'pointer' }}
-      fontSize={30}
-      icon={'ic:baseline-discord'}
-    />,
-    <iframe
-      src="https://ghbtns.com/github-btn.html?user=iib0011&repo=omni-tools&type=star&count=true&size=large"
-      frameBorder="0"
-      scrolling="0"
-      width="150"
-      height="30"
-      title="GitHub"
-    ></iframe>,
-    <Button
-      onClick={() => {
-        window.open('https://buymeacoffee.com/iib0011', '_blank');
-      }}
-      sx={{ borderRadius: '100px' }}
-      variant={'contained'}
-      startIcon={
-        <Icon
-          style={{ cursor: 'pointer' }}
-          fontSize={25}
-          icon={'mdi:heart-outline'}
-        />
-      }
-    >
-      {t('navbar.buyMeACoffee')}
-    </Button>
+    />
   ];
   const drawerList = (
     <List>

@@ -1,23 +1,6 @@
 <div align="center">
         <img src="src/assets/logo.png" width="220" />
         <br /><br />
-<a href="https://trendshift.io/repositories/13055" target="_blank"><img src="https://trendshift.io/api/badge/repositories/13055" alt="iib0011%2Fomni-tools | Trendshift" style="width: 200px;" width="200"/></a>
-   <br /><br />
-<a href="https://github.com/iib0011/omni-tools/releases">
-          <img src="https://img.shields.io/badge/version-0.5.0-blue?style=for-the-badge" />
-        </a>
-        <a href="https://hub.docker.com/r/iib0011/omni-tools">
-          <img src="https://img.shields.io/docker/pulls/iib0011/omni-tools?style=for-the-badge&logo=docker" />
-        </a>
-        <a href="https://github.com/iib0011">
-          <img src="https://img.shields.io/github/stars/iib0011/omni-tools?style=for-the-badge&logo=github" />
-        </a>
-        <a href="https://github.com/iib0011/omni-tools/blob/main/LICENSE">
-          <img src="https://img.shields.io/github/license/iib0011/omni-tools?style=for-the-badge" />
-        </a>
-        <a href="https://discord.gg/SDbbn3hT4b">
-          <img src="https://img.shields.io/discord/1342971141823664179?label=Discord&style=for-the-badge" />
-        </a>
         <br /><br />
 </div>
 
@@ -93,7 +76,7 @@ Stay tuned as we continue to expand and improve our collection!
 ### Docker
 
 ```bash
-docker run -d --name omni-tools --restart unless-stopped -p 8080:80 iib0011/omni-tools:latest
+docker run -d --name omni-tools --restart unless-stopped -p 8080:80 zhkchina/omni-tools:latest
 ```
 
 ### Docker Compose
@@ -101,7 +84,7 @@ docker run -d --name omni-tools --restart unless-stopped -p 8080:80 iib0011/omni
 ```yaml
 services:
   omni-tools:
-    image: iib0011/omni-tools:latest
+    image: zhkchina/omni-tools:latest
     container_name: omni-tools
     restart: unless-stopped
     ports:
@@ -116,7 +99,7 @@ This is a React Project with Typescript Material UI. We use icons from [Iconify]
 ### Project setup
 
 ```bash
-git clone https://github.com/iib0011/omni-tools.git
+git clone https://github.com/zhkchina/omni-tools.git
 cd omni-tools
 npm i
 npm run dev
@@ -148,10 +131,7 @@ npm run test
 npm run test:e2e
 ```
 
-### i18n (Translations)
-The translation files are [here](public/locales). Only edit these if you are a developer. For non developers, use [Locize](https://www.locize.app/register?invitation=YOIH0Dyz3KHh3uQFCGYe9v1QOUoq8W5ySgmlwjX9cSypeJmt8F40brDtVbXb71fK).
-
-<img src="https://api.star-history.com/svg?repos=iib0011/omni-tools&type=Date"/>
+ 
 
 ## 🤝 Looking to contribute?
 
@@ -159,32 +139,15 @@ We welcome contributions! You can help by:
 
 - Reporting bugs
 - Suggesting new features in GitHub issues or [here](https://tally.so/r/nrkkx2)
-- Translating in [Locize project](https://www.locize.app/register?invitation=YOIH0Dyz3KHh3uQFCGYe9v1QOUoq8W5ySgmlwjX9cSypeJmt8F40brDtVbXb71fK).
 - Improving documentation
 - Submitting pull requests
 
-
-You can also join our [Discord server](https://discord.gg/SDbbn3hT4b)
-## 🧡 Sponsors
-<div align="center">
-  <a href="https://www.locize.com/" target="_blank">
-    <img src="docs-images/locizeSponsor.svg" alt="Locize" width="200"/>
-  </a>
-</div>
-
-Thanks to [Locize](https://www.locize.com) for sponsoring OmniTools and supporting localization efforts.
-They make translation management simple and developer-friendly.
-
-## Contributors
-
-<a href="https://github.com/iib0011/omni-tools/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=iib0011/omni-tools" />
-</a>
+ 
 
 ## Contact
 
 For any questions or suggestions, feel free to open an issue or contact me at:
-[ibracool99@gmail.com](mailto:ibracool99@gmail.com)
+[zhkchina@gmail.com](mailto:zhkchina@gmail.com)
 
 ## License
 
@@ -192,7 +155,9 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## TODO
 
-- [ ] CICD流程适配 用github action 自动推送docker，服务器拉取镜像自动- [ ] 更新界面，去除不必要的版权标记和功能，页面静态化
+- [ ] CICD流程适配 用github action 自动推送docker，
+  - [ ] 服务器先手工拉取镜像，正式上线标签才进入服务器自动更新
+- [ ] 更新界面，去除不必要的版权标记和功能，页面静态化
 - [ ] 修改语言模块，适配小语种
 - [ ] 测试Google
 - [ ] 调研多个docker的服务放在同一个域名不同目录下traefik或者caddy

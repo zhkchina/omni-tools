@@ -4,13 +4,11 @@
   "version": "0.1.0",
   "private": true,
   "author": {
-    "name": "Ibrahima Gaye Coulibaly",
-    "email": "ibracool99@gmail.com",
-    "url": "https://github.com/iib0011"
+    "name": "zhkchina",
+    "email": "zhkchina@gmail.com"
   },
   "bugs": {
-    "url": "https://github.com/iib0011/omni-tools/issues",
-    "email": "ibracool99@gmail.com"
+    "email": "zhkchina@gmail.com"
   },
   "scripts": {
     "dev": "vite",
