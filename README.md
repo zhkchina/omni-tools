@@ -8,7 +8,7 @@ Welcome to OmniTools, a self-hosted web app offering a variety of online tools t
 Whether you are coding, manipulating images/videos, PDFs or crunching numbers, OmniTools has you covered. Please don't
 forget to
 star the repo to support us.
-Here is the [demo](https://omnitools.app) website.
+ 
 
 All files are processed entirely on the client side: nothing ever leaves your device.
 Plus, the Docker image is super lightweight at just 28MB, making it fast to deploy and easy to self-host.
@@ -94,7 +94,7 @@ services:
 
 ## Contribute
 
-This is a React Project with Typescript Material UI. We use icons from [Iconify](https://icon-sets.iconify.design)
+This is a React Project with Typescript Material UI.
 
 ### Project setup
 
@@ -138,7 +138,7 @@ npm run test:e2e
 We welcome contributions! You can help by:
 
 - Reporting bugs
-- Suggesting new features in GitHub issues or [here](https://tally.so/r/nrkkx2)
+- Suggesting new features
 - Improving documentation
 - Submitting pull requests
 
